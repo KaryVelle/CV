@@ -222,3 +222,13 @@ span{
 }
 
 
+.scroll-effect {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 0.9s ease, opacity 0.5s ease;
+}
+
+.scroll-effect.active {
+    transform: translateY(0);
+    opacity: 1;
+}
