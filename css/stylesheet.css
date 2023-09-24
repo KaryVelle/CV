@@ -232,3 +232,10 @@ span{
     transform: translateY(0);
     opacity: 1;
 }
+
+.parrafo-about{
+    color: var(--fifth-color);
+    background-color: var(--fourth-color);
+    font-size: medium;
+    padding: 5%;
+}
