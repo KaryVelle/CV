@@ -31,6 +31,10 @@ body{
 
 }
 
+.nav-brand{
+    color: var(--fifth-color);
+}
+
 
 .container-2{
     
