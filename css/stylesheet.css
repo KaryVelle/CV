@@ -52,6 +52,18 @@ body{
     max-width: 100%;
     height: 50%
 }
+.container-bento{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/bentou.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
 
 .about-img{
     
