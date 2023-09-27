@@ -20,6 +20,9 @@ body{
     box-sizing: border-box;
 
 }
+.navbar-toggler{
+    background-color: var(--first-color);
+}
 
 .container-1{
     
@@ -63,7 +66,47 @@ body{
     background-position: center;
     background-attachment: fixed;
 
+
 }
+
+.container-coco{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/cocomaniaMockup.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+.container-coco-2{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/mockupCocomania2.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+.container-4{
+    
+    max-width: 100%;
+    height: 100vh;
+    padding: -12;
+   justify-content: center;
+   align-content: center;
+   padding-top: 20%;
+}
+
 
 .about-img{
     
@@ -95,6 +138,10 @@ body{
     font-weight: 600;
     color: var(--second-color);
 }
+.header-text-2{
+    font-weight: 600;
+   
+}
 
 .header-section{
     font-weight: 500;
@@ -117,6 +164,10 @@ body{
 span{
     color: rgb(230, 230, 230);
     
+}
+.span-2{
+    color: rgb(29, 29, 29); 
+    font-weight: 700;
 }
 
 .nav-container{
@@ -299,7 +350,7 @@ span{
     overflow: hidden;
     background-image: url(../img/DeulderMockup.png); 
     background-size: cover;
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
     
 }
@@ -308,6 +359,11 @@ span{
 .color-2
 {
     color: #0d175160;
+}
+.btn-primary{
+    color: rgb(179, 179, 179);
+    background-color: rgba(17, 17, 17, 0.76);
+    border: 0px;
 }
 
 
