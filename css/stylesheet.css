@@ -355,6 +355,30 @@ span{
     
 }
 
+.ciudad {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/ciuda.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.ciudad-2 {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/ciudad_de_frente.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
 
 .color-2
 {
@@ -366,5 +390,16 @@ span{
     border: 0px;
 }
 
+iframe{
+    width: 100%;
+    height: 100vh;
+   position: relative;
+  
+    
+}
+
+.half{
+height: 20vh;
+}
 
 
