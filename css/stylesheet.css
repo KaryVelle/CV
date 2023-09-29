@@ -423,4 +423,19 @@ iframe{
 height: 20vh;
 }
 
+footer{
+    height: 30vh;
+    background-color: #e2e2e2;
+    color: #262626;
+    
+}
 
+.justify{
+   font-size: large;
+  
+}
+
+.instagram{
+   width: 50px;
+   height: 50px;
+}
