@@ -1,23 +1,27 @@
 :root {
-    --first-color: #8487BF;
+    --first-color: #cccccc;
     --second-color: #031CA6;
-    --third-color: #03178C;
-    --fourth-color: #14328C;
-    --fifth-color: #A6A6A6;
-
+    --third-color: #21318b;
+    --fourth-color:rgb(21, 21, 68) ;
+    --fifth-color: #818181;
+    --sixth-color:#0f2c84;
     --first-img: url(../img/rich-smith-PVvr1ScBd_0-unsplash.jpg) ;
-
+    --font-1:  'Unbounded', sans-serif;
+    --font-2: 'Raleway', sans-serif;
 }
 
 
 
 
 body{
-    font-family: 'Unbounded', sans-serif;
+    font-family: var(--font-1);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+.navbar-toggler{
+    background-color: var(--first-color);
 }
 
 .container-1{
@@ -29,6 +33,10 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+
+.nav-brand{
+    color: var(--fifth-color);
 }
 
 
@@ -47,6 +55,58 @@ body{
     max-width: 100%;
     height: 50%
 }
+.container-bento{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/bentou.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.container-coco{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/mockupcoco4.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+.container-coco-2{
+    
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/mockupCocomania2.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+.container-4{
+    
+    max-width: 100%;
+    height: 100vh;
+    padding: -12;
+   justify-content: center;
+   align-content: center;
+   padding-top: 20%;
+}
+
 
 .about-img{
     
@@ -78,6 +138,10 @@ body{
     font-weight: 600;
     color: var(--second-color);
 }
+.header-text-2{
+    font-weight: 600;
+   
+}
 
 .header-section{
     font-weight: 500;
@@ -100,6 +164,10 @@ body{
 span{
     color: rgb(230, 230, 230);
     
+}
+.span-2{
+    color: rgb(29, 29, 29); 
+    font-weight: 700;
 }
 
 .nav-container{
@@ -172,6 +240,18 @@ span{
    
 }
 
+.seccion-con-imagen-3d{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/3d.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
 
 .content{
     display: flex;
@@ -233,9 +313,105 @@ span{
     opacity: 1;
 }
 
-.parrafo-about{
-    color: var(--fifth-color);
+.about-section{
+    padding: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
     background-color: var(--fourth-color);
-    font-size: medium;
-    padding: 5%;
+    color: var(--first-color);
+    font-family: var(--font-2);
 }
+
+.about-section-1{
+    align-items: center;
+    justify-content: center;
+    background-color: var(--fourth-color);
+    color: var(--first-color);
+   
+}
+
+.seccion-con-imagen-drops {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/dropsmockup2.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+.seccion-con-imagen-karina {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/DelCarpioMockup.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.seccion-con-imagen-demulder {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/DeulderMockup.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.ciudad {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/ciuda.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.ciudad-2 {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/ciudad_de_frente.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+.color-2
+{
+    color: #0d175160;
+}
+.btn-primary{
+    color: rgb(179, 179, 179);
+    background-color: rgba(17, 17, 17, 0.76);
+    border: 0px;
+}
+
+iframe{
+    width: 100%;
+    height: 100vh;
+   position: relative;
+  
+    
+}
+
+.half{
+height: 20vh;
+}
+
+
