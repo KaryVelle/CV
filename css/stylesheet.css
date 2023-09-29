@@ -7,7 +7,7 @@
     --sixth-color:#0f2c84;
     --first-img: url(../img/rich-smith-PVvr1ScBd_0-unsplash.jpg) ;
     --font-1:  'Unbounded', sans-serif;
-    --font-2: 'Raleway', sans-serif;
+    --font-2:'Poppins', sans-serif;
 }
 
 
@@ -88,7 +88,7 @@ body{
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background-image: url(../img/mockupCocomania2.png); 
+    background-image: url(../img/mockupcoco4.png); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -314,7 +314,7 @@ span{
 }
 
 .about-section{
-    padding: 20%;
+    padding: 8% 30% ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -322,7 +322,16 @@ span{
     background-color: var(--fourth-color);
     color: var(--first-color);
     font-family: var(--font-2);
+    font-size: large;
+
 }
+
+.bento-text
+{
+    font-family: var(--font-2);
+    font-size: large;
+}
+
 
 .about-section-1{
     align-items: center;
